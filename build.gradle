@@ -16,7 +16,7 @@ configurations {
 
 repositories {
 	jcenter()
-	maven { url 'http://192.168.213.82:8083/nexus/content/groups/public/' }
+	maven { url 'http://:8083/nexus/content/groups/public/' }
 }
 
 ext {
